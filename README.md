@@ -8,14 +8,14 @@ Create simple unique random id and with support of TypeScript.
 ## Use Case
 For example you can use this package for `creating user id`, `creating product id` and many other thing that you can set with an id.
 
-## 🔰 Install
+## Install
 ```bash
 npm install create-simple-id
 ```
 
 <br/>
 
-## 🔰 In JavaScript
+## In JavaScript
 ```javascript
 const createID = require('create-simple-id');
 
@@ -38,7 +38,7 @@ const user = {
 await db.registerUser(user);
 ```
 
-## 🔰 In TypeScript
+## In TypeScript
 ```typescript
 import createID from 'create-simple-id';
 
