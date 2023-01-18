@@ -1,0 +1,14 @@
+{
+  "name": "create-simple-id",
+  "version": "0.0.1",
+  "description": "Create simple unique random id and with support of TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts"
+  },
+  "author": "333ruka",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
