@@ -1,4 +1,4 @@
-# create-simple-id
+# create-the-id
 
 [![NPM INSTALL](http://img.shields.io/badge/npm-install-blue.svg?style=flat&logo=npm)](https://docs.npmjs.com/getting-started/installing-npm-packages-locally)
 ![NODE JS](http://img.shields.io/badge/Node-JS-teal.svg?style=flat&logo=node.js)
@@ -10,14 +10,14 @@ For example you can use this package for `creating user id`, `creating product i
 
 ## Install
 ```bash
-npm install create-simple-id
+npm install create-the-id
 ```
 
 <br/>
 
 ## In JavaScript
 ```javascript
-const createID = require('create-simple-id');
+const createID = require('create-the-id');
 
 // Without argument (default digit 6)
 const id = createID(); // Result -> z5k1c9
@@ -40,7 +40,7 @@ await db.registerUser(user);
 
 ## In TypeScript
 ```typescript
-import createID from 'create-simple-id';
+import createID from 'create-the-id';
 
 // Without argument (default digit 6)
 const id: string = createID(); // Result -> z5k1c9
